@@ -15,6 +15,7 @@ for x in palavra:
 
 dica = str(input("Digite uma dica: "))
 numTentativa = int(input("Digite o numero de tentativas: "))
+tentativas = numTentativa
 os.system('cls')
 
 contadorLinhas = len(palavra)
@@ -46,10 +47,12 @@ while(gameContinue == True):
         os.system('cls')
 
         print("Acertou!")
+        print(f"Tentativas: {numTentativa} / {tentativas}")
         print(f"Dica: {dica}")
         print("Palavra: ", end="")
         for x in palavra:
             print(f"{x}", end="")
+        print("\n")
         gameContinue = False
 
 
@@ -59,6 +62,7 @@ while(gameContinue == True):
         print("Perdeu! As tentativas acabaram")
         print(f"Dica: {dica}")
         print("Palavra: ", end="")
+
         for x in palavra:
             print(f"{x}", end="")
         gameContinue = False
