@@ -8,10 +8,6 @@
 # variável multa o valor da multa que João deverá pagar. 
 # Imprima os dados do programa com as mensagens adequadas.
 
-
-import os
-os.system('cls')
-
 peso = float(input("Peso dos peixes(Kg): "))
 
 if(peso > 50):

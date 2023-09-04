@@ -4,9 +4,6 @@
 #   a) Para homens: (72.7*h) - 58
 #   b) Para mulheres: (62.1*h) - 44.7
 
-import os
-os.system('cls')
-
 altura = float(input("Digite a altura(m): "))
 homem = (72.7 * altura) - 58
 mulheres = (62.1 * altura) - 44.7

@@ -11,9 +11,6 @@
 #         Acrescente 10% de folga e sempre arredonde os valores para cima, 
 #         isto é, considere latas cheias.
 
-import os
-os.system('cls')
-
 metros = float(input("Digite a área a ser pintada(m²): "))
 litros = metros / 6
 

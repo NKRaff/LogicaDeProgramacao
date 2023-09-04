@@ -13,9 +13,6 @@
 #       - Sindicato (5%) : R$
 #       = Salário Liquido : R$
 
-import os
-os.system('cls')
-
 dinheiro = float(input("Digite o sálario/h: "))
 horas = float(input("Digite as horas trabalhadas: "))
 

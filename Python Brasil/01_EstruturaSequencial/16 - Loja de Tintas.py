@@ -5,9 +5,6 @@
 # Informe ao usuário a quantidades de latas de tinta a serem compradas 
 # e o preço total.
 
-import os
-os.system('cls')
-
 metros = float(input("Digite a área a ser pintada(m²): "))
 litros = metros / 3
 latas = int(litros / 18 + 1)

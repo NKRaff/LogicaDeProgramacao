@@ -4,9 +4,6 @@
 #   b) a soma do triplo do primeiro com o terceiro.
 #   c) o terceiro elevado ao cubo.
 
-import os
-os.system('cls')
-
 primeiro = int(input("Digite o 1º inteiro: "))
 segundo = int(input("Digite o 2º inteiro: "))
 terceiro = int(input("Digite o um real: "))
