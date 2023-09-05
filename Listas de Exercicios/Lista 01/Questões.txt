@@ -1,0 +1,86 @@
+Questões Lista 1:
+
+| Variáveis, constantes, operadores aritméticos e comandos de saída |
+
+1. Faça um programa que leia um número inteiro e o imprima. 
+2. Peça ao usuário para digitar três valores inteiros e imprima a soma deles. 
+3. Desenvolva um algoritmo em python que leia um número inteiro e imprima o seu antecessor e seu sucessor. 
+4. Leia uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit. A fórmula de conversão é: 
+    F = C*(9.0/5.0)+32.0, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius. 
+5. Leia uma velocidade em km/h (quilômetros por hora) e apresente-a convertida em m/s (metros por segundo). A fórmula de conversão é: 
+    M = K/3.6, sendo K a velocidade em km/h e M em m/s. 
+6. Leia quatro notas, calcule a média aritmética e imprima o resultado. 
+7. Leia um valor em real e a cotação do dólar. Em seguida, imprima o valor correspondente em dólares. 
+8. Leia o valor do raio de um círculo e calcule e imprima a área do círculo correspondente. 
+    A área do círculo é π*r2 , considere π = 3.141592. 
+9. A importância de R$ 780.000,00 será dividida entre três ganhadores de um concurso. Sendo que da quantia total: 
+    - O primeiro ganhador receberá 46%; 
+    - O segundo receberá 32%; 
+    - O terceiro receberá o restante; 
+    Calcule e imprima a quantia ganha por cada um dos ganhadores.
+
+
+| Estruturas condicionais |
+
+10. Faça um programa que leia um número e, caso ele seja positivo, calcule e mostre: 
+    - O número digitado ao quadrado 
+    - A raiz quadrada do número digitado
+11. Faça um programa que receba um número inteiro e verifique se este número é par ou ímpar, positivo ou negativo. 
+12. Faça um programa que leia 2 notas de um aluno, verifique se as notas são válidas e exiba na tela a média destas notas. 
+    Uma nota válida deve ser, obrigatoriamente, um valor entre 0.0 e 10.0, onde caso a nota não possua um valor válido, 
+    este fato deve ser informado ao usuário e o programa termina. 
+13. Faça um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu peso ideal, 
+    utilizando as seguintes fórmulas (onde h corresponde à altura): 
+    - Homens: (72.7 * h) − 58 
+    - Mulheres: (62, 1 * h) − 44, 7
+14. A nota final de um estudante é calculada a partir de três notas atribuídas entre o intervalo de 0 até 10, respectivamente, 
+    a um trabalho de laboratório, a uma avaliação semestral e a um exame final. A média das três notas mencionadas anteriormente 
+    obedece aos pesos: 
+    - Trabalho de Laboratório: 2; 
+    - Avaliação Semestral: 3; 
+    - Exame Final: 5. 
+    De acordo com o resultado, mostre na tela se o aluno está reprovado (média entre 0 e 2,9), 
+    de recuperação (entre 3 e 4,9) ou se foi aprovado. Faça todas as verificações necessárias. 
+15. Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são: 
+    - "Telefonou para a vítima?"
+    - "Esteve no local do crime?"
+    - "Mora perto da vítima?"
+    - "Devia para a vítima?"
+    - "Já trabalhou com a vítima?" 
+    O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. 
+    Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", 
+    entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente". 
+16. Leia a idade e o tempo de serviço de um trabalhador e escreva se ele pode ou não se aposentar. As condições para aposentadoria são: 
+    - Ter pelo menos 65 anos, 
+    - Ou ter trabalhado pelo menos 30 anos, 
+    - Ou ter pelo menos 60 anos e trabalhado pelo menos 25 anos. 
+17. Leia a distância em Km e a quantidade de litros de gasolina consumidos por um carro em um percurso, calcule o consumo em Km/l 
+    e escreva uma mensagem de acordo com a tabela abaixo:
+    |  Consumo  | (Km/l) |    Mensagem     |
+    |--------------------------------------|
+    | menor que |    8   | Venda o Carro!  |
+    |   entre   | 8 e 12 | Econômico       |
+    | maior que |   12   | Super Econômico |
+
+
+| Estruturas de repetição |
+
+18. Escreva um programa que escreva na tela, de 1 até 100, de 1 em 1, 2 vezes. 
+    A primeira vez deve usar a estrutura de repetição “for”, a segunda vez a estrutura “while”. 
+19. Faça um programa que peça ao usuário para digitar 10 valores e some-os e imprima o resultado. 
+20. Faça um programa que leia 10 inteiros e imprima sua media. 
+21. Faça um programa que leia 10 inteiros positivos, ignorando não positivos, e imprima sua média.
+22. Faça um programa que leia um numero inteiro “N” e depois imprima os N primeiros números naturais ímpares. 
+23. Faça um programa que leia um numero inteiro positivo “N” e imprima todos os números naturais de 0 até “N” em ordem crescente. 
+24. Faça um programa que leia um numero inteiro positivo “N” e imprima todos os números naturais de 0 até N em ordem decrescente. 
+25. Faça um programa que receba dois números. Calcule e mostre: - a soma dos números pares desse intervalo de números, 
+    incluindo os números digitados; - a multiplicação dos números ímpares desse intervalo, incluindo os digitados;
+26. Faça um programa que imprima a tabuada de multiplicação de 1 a 9;
+27. Escreva um programa que leia um numero inteiro positivo “N” e em seguida imprima “N” linhas do chamado Triângulo de Floyd. 
+    Para n = 6, temos:
+        1
+        2 3
+        4 5 6
+        7 8 9 10
+        11 12 13 14 15
+        16 17 18 19 20 21
