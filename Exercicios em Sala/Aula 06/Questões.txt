@@ -1,0 +1,15 @@
+1. Crie um programa em Python que solicite ao usuário e receba o valor do lado para calcular a área de um quadrado;
+
+2. Crie um programa em Python que solicite ao usuário e receba os valores da base e altura para calcular a área de um triangulo;
+
+3. Crie um programa em Python que que solicite ao usuário e receba o valor do raio para calcular a área, perímetro e diâmetro de um círculo;
+    Declare π como constante.
+
+4. Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. 
+Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, 
+que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
+
+5. Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
+    a) o produto do dobro do primeiro
+    b) a soma do triplo do primeiro com o terceiro
+    c) o terceirio elevado ao cubo

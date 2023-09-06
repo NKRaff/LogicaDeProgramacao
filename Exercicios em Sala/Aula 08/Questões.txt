@@ -1,0 +1,60 @@
+1. O IMC (índice de massa corpórea) indica o grau de obesidade de uma pessoa. Este índice é obtido pelo peso (em kg) 
+    dividido pelo quadrado da altura (em metros). A tabela a seguir apresenta as faixas deste índice:
+        |   IMC    |     Avaliação      |
+        |----------|--------------------|
+        |   <20    |  Abaixo do normal  |
+        | [20, 25[ |       Normal       |
+        | [25, 30[ |     Sobrepeso      |
+        | [30, 35[ |   Obesidade leve   |
+        | [35, 40[ | Obesidade moderada |
+        |  >= 40   | Obesidade mórbida  |
+    Faça um programa que solicita o peso e a altura de uma pessoa, calcule o IMC, apresente o seu valor e a avaliação. 
+
+2. Solicite um número ao usuário. 
+    Se for divisível por 3, informe “é divisível por 3”. 
+    Se for divisível por 4, informe “é divisível por 4”. 
+    Se for divisível por 3 e 4, informe “É divisível tanto por 3 quanto por 4”.
+
+3. Faça um programa para o cálculo de uma folha de pagamento, sabendo que os descontos são do 
+    Imposto de Renda, que depende do salário bruto (conformealíquotas abaixo) e 
+    3% para o Sindicato, 10% para o INSS e o FGTS corresponde a 11% do Salário Bruto, mas não é descontado (é a empresa que deposita). 
+    O Salário Líquido corresponde ao Salário Bruto menos os descontos. 
+    O programa deverá pedir ao usuário o valor da sua hora e a quantidade de horas trabalhadas no mês. 
+        Desconto do IR:
+        Salário Bruto até 900 (inclusive) - isento
+        Salário Bruto até 1500 (inclusive) - desconto de 5%
+        Salário Bruto até 2500 (inclusive) - desconto de 10%
+        Salário Bruto acima de 2500 - desconto de 20%
+    Imprima na tela as informações, dispostas conforme o exemplo ao lado. 
+    No exemplo o valor da hora é 5 e a quantidade de hora é 220.
+        Salário bruto       : R$ 20000.00
+        (-) IR              : R$ 4000.00
+        (-) INSS (10%)      : R$ 2000.00
+        (-) Sindicato (3%)  : R$ 600.00
+        FGTS (11%)          : R$ 2200.00
+        Total de descontos  : R$ 6600.00
+        Salário Liquido     : R$ 13400.00
+
+4. Elabore um algoritmo que calcule o que deve ser pago por um produto, considerando o preço normal de etiqueta e a escolha da condição de
+    pagamento. Utilize os códigos a seguir para ler qual acondição de pagamento escolhida e efetuar o cálculo adequado:
+    Código Condição de pagamento
+    1 À vista em dinheiro ou cheque, recebe 10% de desconto
+    2 À vista no cartão de crédito, recebe 15% de desconto
+    3 Em duas vezes, preço normal de etiqueta sem juros
+    4 Em três vezes, preço normal de etiqueta mais juros de 10%
+    5 Em seis vezes, preço normal de etiqueta mais juros de 20%
+
+5. Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo. 
+    Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno. 
+    Dicas:
+        Três lados formam um triângulo quando a soma de quaisquer dois lados for maior que o terceiro;
+        Triângulo Equilátero: três lados iguais;
+        Triângulo Isósceles: quaisquer dois lados iguais;
+        Triângulo Escaleno: três lados diferentes;
+
+6. Faça um Programa que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades do mesmo. 
+    Observe os termos no plural, a colocação do "e", da vírgula,etc.
+    Exemplo:
+        326 = 3 centenas, 2 dezenas e 6 unidades
+        12 = 1 dezena e 2 unidades
+    Testar com: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16
