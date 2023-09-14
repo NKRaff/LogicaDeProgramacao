@@ -1,4 +1,4 @@
-palavra = str(input("Digite uma palavra: ")).replace(" ", "").lower().isalpha()
+palavra = str(input("Digite uma palavra: ")).replace(" ", "").lower()
 palindromo = ""
 if(palavra.isalpha()):
     for i in range(len(palavra)):
@@ -10,5 +10,3 @@ if(palavra.isalpha()):
         print("Não é um palíndromo!")
 else:
     print("Palavra Invalida!")
-
-
