@@ -1,0 +1,43 @@
+1. Faça um Programa que leia 5 números inteiros, armazene-os em uma lista e imprima essa lista na tela. 
+
+2. Faça um programa que leia 10 números inteiros. Cada numero par deve ser armazenado em uma lista de pares 
+e cada impar  tem que ser armazenado em uma lista de impares. Ao término do programa imprima as duas listas. 
+
+3. Faça um programa que armazene as idades e as alturas de 4 alunos. Seu programa deve exibir quantos 
+alunos com mais de 13 anos possuem uma altura inferior à altura média dentre todos os alunos. 
+
+4. Modifique o programa da questão 3 para que o usuário indique a quantidade de alunos que será utilizada no programa. 
+Assim antes de começar a leitura de idades e alturas, o programa deve solicitar ao usuário o quantitativo de alunos. 
+
+5. Modifique o programa da questão 3 para que o programa funcione para qualquer quantidade de alunos. 
+Assim, durante a leitura das idades e alturas o usuário poderá inserir um valor negativo para indicar que deseja 
+interromper a leitura dos dados.
+
+
+6. Faça um programa que leia uma data de nascimento no formato dd/mm/aaaa e imprima a data com o mês escrito por extenso. 
+    Exemplo:
+        Data = 20/02/1995
+        Resultado gerado pelo programa:
+        Você nasceu em 20 de fevereiro de 1995
+
+7. Faça um programa que receba a temperatura média de cada mês do ano e armazene-as em uma lista. 
+Após isto, calcule a média anual das temperaturas e mostre todas as temperaturas acima da média anual, 
+e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro, . . . ).
+
+8. Em uma competição de salto em distância cada atleta tem direito a cinco saltos. O resultado do atleta será determinado 
+pela média dos cinco valores restantes. Você deve fazer um programa que receba o nome e as cinco distâncias alcançadas pelo
+atleta em seus saltos e depois informe o nome, os saltos e a média dos saltos. O programa deve ser encerrado quando não for 
+informado o nome do atleta. 
+    A saída do programa deve ser conforme o exemplo abaixo:
+        Atleta: Rodrigo Curvêlio
+
+        Primeiro Salto: 6.5 m
+        Segundo Salto: 6.1 m
+        Terceiro Salto: 6.2 m
+        Quarto Salto: 5.4 m
+        Quinto Salto: 5.3 m
+
+        Resultado final:
+        Atleta: Rodrigo Curvêlio
+        Saltos: 6.5 - 6.1 - 6.2 - 5.4 - 5.3
+        Media dos saltos: 5.9 m
