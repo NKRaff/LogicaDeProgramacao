@@ -1,0 +1,16 @@
+data = str(input("Digite uma data de nascimento (dd/mm/aaaa): ")).split("/")
+
+print(f"Você nasceu em ",end="")
+match data[1]:
+    case "01": print(f"{data[0]} de janeiro de {data[2]}")
+    case "02": print(f"{data[0]} de fevereiro de {data[2]}")
+    case "03": print(f"{data[0]} de março de {data[2]}")
+    case "04": print(f"{data[0]} de abril de {data[2]}")
+    case "05": print(f"{data[0]} de maio de {data[2]}")
+    case "06": print(f"{data[0]} de junho de {data[2]}")
+    case "07": print(f"{data[0]} de julho de {data[2]}")
+    case "08": print(f"{data[0]} de agosto de {data[2]}")
+    case "09": print(f"{data[0]} de setembro de {data[2]}")
+    case "10": print(f"{data[0]} de outubro de {data[2]}")
+    case "11": print(f"{data[0]} de novembro de {data[2]}")
+    case "12": print(f"{data[0]} de dezembro de {data[2]}")
